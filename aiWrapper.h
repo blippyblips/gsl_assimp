@@ -88,7 +88,7 @@ struct aiUtils {
 
   static gsl::span<aiVector3D> vertices(const aiMesh* mesh)
   {
-	  return { mesh->mVertices, mesh->mNumVertices };
+    return {mesh->mVertices, mesh->mNumVertices};
   }
 
   static gsl::span<aiMaterial*> materials(const aiScene* scene)
